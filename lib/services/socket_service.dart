@@ -13,7 +13,7 @@ class SocketService extends ChangeNotifier {
   bool _isConnected = false;
   String? _errorMessage;
 
-  // Getters
+  // Getters.
   String? get username => _username;
   String? get role => _role;
   List<UserModel> get users => _users;
