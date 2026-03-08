@@ -87,7 +87,7 @@ class _ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     return Consumer<SocketService>(
       builder: (context, socketService, _) {
-        // Listen for errors
+        // Listen for errors.
         if (socketService.errorMessage != null) {
           WidgetsBinding.instance.addPostFrameCallback((_) {
             ScaffoldMessenger.of(context).showSnackBar(
