@@ -19,7 +19,7 @@ class _JoinScreenState extends State<JoinScreen> {
   @override
   void initState() {
     super.initState();
-    // Connect to production server
+    // Connect to production server.
     final socketService = context.read<SocketService>();
     socketService.connect('https://chatting-server-u30c.onrender.com');
   }
