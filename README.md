@@ -1,4 +1,4 @@
-# 💬 ChatHub - Flutter App.
+# 💬 ChatHub - Flutter App
 
 A secure, modern real-time group chatroom Flutter application with Admin/User roles and PIN-based authentication.
 
