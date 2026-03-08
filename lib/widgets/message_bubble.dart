@@ -56,7 +56,7 @@ class MessageBubble extends StatelessWidget {
               ),
             ),
 
-          // Message bubble
+          // Message bubble.
           Container(
             constraints: BoxConstraints(
               maxWidth: MediaQuery.of(context).size.width * 0.65,
