@@ -23,7 +23,7 @@ class SocketService extends ChangeNotifier {
   String? get errorMessage => _errorMessage;
   bool get isAdmin => _role == 'admin';
 
-  // Connect to server
+  // Connect to server.
   void connect(String serverUrl) {
     _socket = IO.io(
       serverUrl,
