@@ -1,4 +1,5 @@
 # 💬 ChatHub - Flutter App
+TEMPORARY SERVER IS CLOSE
 
 A secure, modern real-time group chatroom Flutter application with Admin/User roles and PIN-based authentication.
 
